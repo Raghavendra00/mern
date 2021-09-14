@@ -5,17 +5,138 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      p
+      {
+        color: blueviolet;
+      }
+    </style>
   </head>
   <body>
+    <img src="./2.jpg" alt="" id="con" height="200px" width="200px">
     <h1 id="demo">Hello world</h1>
-    <!-- <button type="button" onclick="my()">Try</button> -->
+    <h1 id="de">Hello world</h1>
+    <p id="p2">hello yamunagaga</p>
+    <div onmouseover="om(this)" onmouseout="oo(this)" style="height: 100px; width: 250px; background-color: chartreuse;">Mouse</div>
+
+   
+
     <script>
+      function om(obj)
+      {
+        obj.innerHTML="Raghavendra";
+        obj.style.background = "yellow";
+      
+      }
+      function oo(obj)
+      {
+        obj.innerHTML="release";
+      }
+      // document.getElementById("p2").style.color="blue";
+      // document.getElementById("p2").style.backgroundColor="red";
+      // document.getElementById("con").src="./4.jpeg";
+    
+
+
+// function ran(min, max) {
+      //   return Math.floor(Math.random() * (max - min) + 1) + min;
+      // }
       //   function my() {
       //     document.getElementById("demo").innerHTML = "This is my java script";
       //   }
-      let text = "fnfknsfknfnkfnkfnjngjngjbeggbet";
-      text.length;
-      document.getElementById("demo").innerHTML = text.length;
+      // var x = 10;
+      // // var x = 20;
+      // let x = 15;
+      // let d = 122;
+      // let c = "Hello";
+      // // let c = x + d;
+      // add();
+
+      // function add() {
+      //   let a = "Helo";
+      //   document.getElementById("de").innerHTML = typeof a + "<br>" + a;
+      // }
+      // button;
+      // var person = {
+      //   fname: "Rahul",
+      //   lname: "Kumar",
+      //   rnum: 13444,
+      //   lo: function () {
+      //     return this.fname + this.lname + this.rnum;
+      //   },
+      // };
+      // document.getElementById("de").innerHTML = person.lo();
+      // const d = new Date();
+
+      // document.getElementById("de").innerHTML =
+      //   Math.ceil(Math.random() * 100000) + 5;
+      // let day;
+      // switch (new Date().getDay()) {
+      //   case 0:
+      //     day = "sunday";
+      //     break;
+      //   case 1:
+      //     day = "monday";
+      //     break;
+      //   case 2:
+      //     day = "tuesday";
+      //     break;
+      // }
+      // let text = "";
+      // for (let i = 0; i < 5; i++) {
+      //   text += i;
+      //   document.getElementById("de").innerHTML = text;
+      // }
+      // let i = 0;
+      // while (i < 100) {
+      //   i++;
+      //   text += "<br>" + i;
+      // }
+      // let a = "Raghavendra";
+      // for (let b of a) {
+      //   text += b + "<br  >";
+      // }
+      // document.getElementById("de").innerHTML = text;
+      // heloo = () => {
+      //   return "Hii world";
+      // };
+
+      //       '{"employees":[' +
+      // '{"firstName":"John","lastName":"Doe" },' +
+      // '{"firstName":"Anna","lastName":"Smith" },' +
+      // '{"firstName":"Peter","lastName":"Jones" }]}';
+    //   class Car {
+    //   constructor(name, year) {
+    //     this.name = name;
+    //     this.year = year;
+    
+    //   }
+    //   age() {
+    //     let date = new Date();
+    //     return date.getFullYear() - this.year;
+    //   }
+    // }
+    
+    // let my = new Car("Ford", 2000);
+    // document.getElementById("demo").innerHTML =
+    // my.age() ;
+      // class car {
+      //   constructor(name, year) {
+      //     this.name = name;
+      //     this.year = year;
+      //   }
+      //   age() {
+      //     let date = new Date();
+      //     return date.getFullYear  -  this.year;
+      //   }
+      // }
+      // let my = new car("BMW", 2018);
+      // document.getElementById("demo").innerHTML = my.age() +"<br>"+ "HEllo" + my.name;
+    // document.getElementById("demo").innerHTML="hello yamunagaga";
+    document.getElementsByTagName(p).innerHTML="Hello delhi";
+
+    </script>
+    
     </script>
   </body>
 </html>
