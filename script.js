@@ -1,25 +1,71 @@
-// console.log("Hello world from file")
-// alert(10+50)
-// var name = prompt("Enter your name")
-// console.log(name)
-// document.write("This is another method...Dont Use")
+// // console.log("Hello world from file")
+// // alert("Helllo from alert")
+// // var name = prompt("Enter your name")
+// // console.log(name)
+// // document.write("This is another method...Dont Use")
 
-var a = 10
-var b = 20
+// function add(x,y)
+// {
+//     console.log(x+y);
+// }
 
-var str = "Hello world jvsuvidnbhj"
+// // add(10,20)
+// // add(20,90)
 
-var r
+// function con(t)
+// {
+//     console.log(t + "KM is " + t*1000 + "M");
+    // console.log(`${t} KM is ${t*1000} M`);
+// }
 
-const PI = 3.14
-// var st1 = " Hello "
-// var st2 = "Dhruv"
-a = 50
-b = 100
-// const x = 30
-// console.log(st1+st2+(a+b))
+// // con(55)
 
-str = 100000
-PI = 3.13
-r = 200
-console.log(PI)
+// function sum(a,b)
+// {
+//     return a+b
+// }
+
+// function mul(x) 
+// {
+//     return x*1000
+// }
+// // var add = sum(100,200)
+// // mul(add)
+// console.log(mul(sum(100,200)));
+// // console.log();
+
+// var add = () => {}
+
+// var details = {
+//     Name:"Aman",
+//     Age:21,
+//     Class:"6th",
+//     print : function() {
+//         console.log(this.Name);
+//     }
+// }
+
+// // console.log(details.Name);
+// console.log(details.print());
+function sub()
+{
+   return 100-23
+}
+var a=sub()
+console.log(a);
+
+
+function mul()
+{
+    console.log(2*a);
+}
+mul(a)
+var per={
+    name:"rahul",
+    age:29,
+    number:987655
+}
+console.log(per["age"]);
+var a=10
+var b=1222
+console.log(`${a} this is a nuber less then 11 ${b} this number is divided by 2`);
