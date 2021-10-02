@@ -15,7 +15,7 @@
 // function con(t)
 // {
 //     console.log(t + "KM is " + t*1000 + "M");
-    // console.log(`${t} KM is ${t*1000} M`);
+// console.log(`${t} KM is ${t*1000} M`);
 // }
 
 // // con(55)
@@ -25,7 +25,7 @@
 //     return a+b
 // }
 
-// function mul(x) 
+// function mul(x)
 // {
 //     return x*1000
 // }
@@ -54,7 +54,6 @@
 // var a=sub()
 // console.log(a);
 
-
 // function mul()
 // {
 //     console.log(2*a);
@@ -69,7 +68,6 @@
 // var a=10
 // var b=1222
 // // console.log(`${a} this is a nuber less then 11 ${b} this number is divided by 2`);
-
 
 // var str = "aman,raj,rahul,ajay"
 // var arr = str.split(",")
@@ -93,7 +91,7 @@
 // const newArr = arr + arr1
 // console.log(arr1.sort(
 //     (a,b) => {return b-a}
-//     )); 
+//     ));
 
 // var newArr = arr1.map((item) => {
 //     return item*100;
@@ -109,7 +107,7 @@
 // ar.length
 // console.log(ar);
 // console.log(ar[4](1111,1111));
-var arra=["hello","world","i Am" ,"here","but","not","there"]
+// var arra=["hello","world","i Am" ,"here","but","not","there"]
 // arra.splice(6,10,"hey","hii")
 // console.log(arra);
 // function add(a,b)
@@ -117,8 +115,84 @@ var arra=["hello","world","i Am" ,"here","but","not","there"]
 //     return a+b;
 // }
 // console.log(add(10000000000000,99));
-var a=arra.sort()
-console.log(a);
-arra.reverse();
-console.log(arra);
+// var a=arra.sort()
+// console.log(a);
+// arra.reverse();
+// console.log(arra);
+// var arr = [1, 2, 3, 4, 5, 5, 6, 6,"hello world" , 6];
+// arr.forEach((el)=>{
+//     console.log(el);
+// });
+// arr.forEach(function (el) {
+//   console.log(el);
+// });
+// const arr = [1, 2, 3, 4, 5, 5, 6, 6, 6, 6];
+// arr[3] = "hello world";
+// const rr = [2, 3, 4, 5, 5, 5, 5, 5];
+// console.log(arr);
+// var d = new Date();
+// var c = d.toDateString();
+// console.log(c);
+// var options = {
+//   weekday: "long",
+//   year: "numeric",
+//   //   month: "long",
+//   day: "numeric",
+// };
+// var today = new Date();
 
+// console.log(today.toLocaleDateString("en-US")); // 9/17/2016
+// console.log(today.toLocaleDateString("en-US", options)); // Saturday, September 17, 2016
+// console.log(today.toLocaleDateString("hi-IN", options)); // शनिवार, 17 सितंबर 2016
+// var dateFormat = require("dateformat");
+// var now = new Date();
+// dateFormat(now, "dddd, mmmm dS, yyyy, h:MM:ss TT");
+
+// var a = Math.ceil(10.3);
+// console.log(a);
+
+// 1
+// 21
+// 321
+// 4321
+// 54321
+// var str = "";
+// for (var i = 1; i <= 5; i++) {
+//   for (var j = 5; j > 5 - i; j--) {
+//     str += j + "";
+//   }
+//   str += "\n";
+// }
+// console.log(str);
+// var a = 11;
+// if (a % 2 == 0) {
+//   console.log("number is even");
+// } else {
+//   console.log("Number is odd");
+// }
+
+// var a = Math.trunc(Math.random() * 6);
+// console.log(a);
+// for (let i = 0; i <= 25; i++) {
+//   console.log(i);
+// }
+var str = "";
+for (let i = 1; i < 5; i++) {
+  for (let j = 1; j < 5; j++) {
+    str += "*";
+  }
+  str += "\n";
+}
+// Raghavendra kumar
+// console.log(str);
+
+// var a = 10;
+// console.log("Before Loop:", a);
+// for (var i = 0; i <= 5; i++) {
+//   let a = 100;
+//   console.log("Inside Loop:", a);
+// }
+
+// console.log("After Loop:", a);
+// console.log(Math.trunc(Math.random() * 
+11));
